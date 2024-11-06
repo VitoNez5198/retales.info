@@ -1,0 +1,32 @@
+{
+  "name": "retales.info",
+  "version": "1.0.0",
+  "description": "Este proyecto es una aplicación web que permite a los trabajadores registrar el consumo de retales de aluminio. La aplicación ayuda a mantener un historial de consumos y genera reportes para optimizar el control de inventario.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoNez5198/retales.info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitoNez5198/retales.info/issues"
+  },
+  "homepage": "https://github.com/VitoNez5198/retales.info#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
